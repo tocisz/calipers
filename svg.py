@@ -1,15 +1,18 @@
-#!/usr/bin/env python3
 import xml.etree.ElementTree as ET
 import xml.etree as etree
 
 import math
 import numpy as np
 import json
-import sys
 
-WIDTH = 1000
-HEIGHT = 1000
+WIDTH = 1920
+HEIGHT = 1200
 MIN_BASE_DIST = 1.0
+
+D = 80
+P1 = (WIDTH/2 - D, HEIGHT/2)
+P2 = (WIDTH/2 + D, HEIGHT/2)
+ps = [P1, P2]
 
 def connect(p1, p2, p3, p4):
     r1 = (p1[0]-p2[0])**2 + (p1[1]-p2[1])**2
@@ -50,7 +53,7 @@ def finalLine(ps, root, p1i, p2i, delay):
     p1 = [str(ps[p1i][0]), str(ps[p1i][1])]
     p2 = [str(ps[p2i][0]), str(ps[p2i][1])]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='main']")
-    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], visibility='hidden', style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round")
+    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], visibility='hidden', style="stroke:rgb(0,0,0);stroke-width:3")
     l.append(ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="visible", begin=f"{delay}s"))
     aa = {"attributeName": "x2", "from": p1[0], "to": p2[0], "dur": "1s", "begin": f"{delay}s", "fill": "freeze"}
     l.append(ET.Element("{http://www.w3.org/2000/svg}animate", attrib=aa))
@@ -69,13 +72,13 @@ def finalLine(ps, root, p1i, p2i, delay):
 # </circle>
 # <set attributeName="visibility" to="visible" begin="4s" />
 # </g>
-def drawConnect(ps,root, p1i, p2i, delay):
+def drawConnect(root, p1i, p2i, delay):
     p1 = [str(ps[p1i][0]), str(ps[p1i][1])]
     p2 = [str(ps[p2i][0]), str(ps[p2i][1])]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='evolving']")
     g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"connect-{p1i}-{p2i}")
     r.append(g)
-    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1])
+    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], style="stroke:rgb(0,0,0);stroke-width:1")
     aa = {"attributeName": "x2", "from": p1[0], "to": p2[0], "dur": "1s", "begin": f"{delay}s", "fill": "freeze"}
     l.append(ET.Element("{http://www.w3.org/2000/svg}animate", attrib=aa))
     aa = {"attributeName": "y2", "from": p1[1], "to": p2[1], "dur": "1s", "begin": f"{delay}s", "fill": "freeze"}
@@ -113,15 +116,15 @@ def angle(p1, p2, p3):
 # <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 X1 Y1" to="A X1 Y1" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
 # <set attributeName="visibility" to="visible" begin="3s" />
 # </g>
-def drawRotate(ps, root, p1i, p2i, p3i, begin, end):
+def drawRotate(root, p1i, p2i, p3i, delay):
     an = angle(ps[p1i], ps[p2i], ps[p3i])
     # print(an)
     p1 = [str(n) for n in ps[p1i]]
     p2 = [str(n) for n in ps[p2i]]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='evolving']")
-    g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"rotate-{p1i}-{p2i}-{p3i}")
+    g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"rotate-{p1i}-{p2i}")
     r.append(g)
-    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p2[0], y2=p2[1])
+    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p2[0], y2=p2[1], style="stroke:rgb(0,0,0);stroke-width:1")
     g.append(l)
     c = ET.Element("{http://www.w3.org/2000/svg}circle", cx=p2[0], cy=p2[1], r="3")
     g.append(c)
@@ -131,8 +134,8 @@ def drawRotate(ps, root, p1i, p2i, p3i, begin, end):
         "type" : "rotate",
         "from" : f"0 {p1[0]} {p1[1]}",
         "to" : f"{an} {p1[0]} {p1[1]}",
-        "dur" : f"{end-begin}s",
-        "begin" : f"{begin}s",
+        "dur" : "1s",
+        "begin" : f"{delay}s",
         "fill": "freeze"})
     g.append(a)
     # <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s" />
@@ -141,13 +144,13 @@ def drawRotate(ps, root, p1i, p2i, p3i, begin, end):
         "attributeType" : "CSS",
         "from" : "1",
         "to" : "0",
-        "dur" : f"1s",
-        "begin" : f"{end}s",
+        "dur" : "1s",
+        "begin" : f"{delay+1}s",
         "fill": "freeze"})
     g.append(a)
-    s = ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="visible", begin=f"{begin}s")
+    s = ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="visible", begin=f"{delay}s")
     g.append(s)
-    s = ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="hidden", begin=f"{end+1}s")
+    s = ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="hidden", begin=f"{delay+2}s")
     g.append(s)
 
 def deactivate(i, delay):
@@ -162,107 +165,54 @@ def deactivate(i, delay):
         "fill": "freeze"})
     r.append(a)
 
-def readInput(fn):
-    with open(fn, 'r') as infile:
+def readInput():
+    with open('opt/solution.json', 'r') as infile:
         return json.load(infile)
 
-def main(solfn):
-    recipe = readInput(solfn)
-    ps = recipe['base']['points']
+def main():
+    recipe = readInput()
     v = recipe["v"]
     e = recipe["e"]
-    lastUsed = [0] * (len(v)+len(ps))
-    n = 0
-    created = {}
-    for i in range(len(ps)):
-        finalDot(ps, root, i)
-        created[i] = 0 # base is created from the beginning
-        n += 1
-
-    final = set()
-    for path in e:
-        for i in range(len(path)-1):
-            final.add((path[i], path[i+1]))
-
+    lastUsed = [0] * (len(v)+2)
+    finalDot(ps, root, 0)
+    finalDot(ps, root, 1)
+    roundLimit = 1
+    delay = 1
+    print(f"DELAY {delay}")
+    n = 2
     for r in v:
+        maxp = max(r)
+        if maxp > roundLimit:
+            roundLimit = n-1
+            delay += 2
+            print(f"DELAY {delay}")
         p = connect(ps[r[0]], ps[r[1]], ps[r[2]], ps[r[3]])
         ps.append(p)
-
-    toConnect = set(final)
-    connected = {}
-    toCreate = set()
-    for r in v:
-        toConnect.add( (r[0],r[1]) )
-        toConnect.add( (r[2],r[3]) )
-        toCreate.add( (n,(r[0],r[1]),(r[2],r[3])) )
+        drawConnect(root, r[0], r[1], delay-1)
+        drawConnect(root, r[2], r[3], delay-1)
+        drawRotate(root, r[0], r[1], n, delay)
+        drawRotate(root, r[2], r[3], n, delay)
+        finalDot(ps, root, n, delay+1)
+        lastUsed[r[0]] = delay
+        lastUsed[r[1]] = delay
+        lastUsed[r[2]] = delay
+        lastUsed[r[3]] = delay
+        lastUsed[n] = delay
+        print(n)
         n += 1
-    toConnect = list(toConnect)
-    toCreate = list(toCreate)
-    print(toConnect)
+    delay += 1
+    for i in range(len(e)-1):
+        finalLine(ps, root, e[i], e[i+1], delay)
+    delay += 1
+    for p in e:
+        lastUsed[p] = delay
 
-    time = 0
-    while toCreate:
-        print(f"DELAY {time}")
-        print(f"connected: {connected}")
-        nextToCreate = []
-        for (n,(p1,p2),(p3,p4)) in toCreate:
-            # print( (n,(p1,p2),(p3,p4)) )
-            if (p1,p2) in connected.keys() and (p3,p4) in connected.keys():
-                begin1 = connected[(p1,p2)]
-                begin2 = connected[(p3,p4)]
-                if begin1 < time and begin2 < time:
-                    drawRotate(ps, root, p1, p2, n, begin1, time)
-                    print( f"Rotate {p1}, {p2}, {n}, {begin1}, {time}" )
-                    drawRotate(ps, root, p3, p4, n, begin2, time)
-                    print( f"Rotate {p3}, {p4}, {n}, {begin2}, {time}" )
-                    finalDot(ps, root, n, time)
-                    created[n] = time
-                    lastUsed[p1] = time
-                    lastUsed[p2] = time
-                    lastUsed[p3] = time
-                    lastUsed[p4] = time
-                    lastUsed[n] = time
-                else:
-                    nextToCreate.append( (n,(p1,p2),(p3,p4)) )
-            else:
-                nextToCreate.append( (n,(p1,p2),(p3,p4)) )
-        toCreate = nextToCreate
-
-        nextToConnect = []
-        print(f"created: {created}")
-        for (p1,p2) in toConnect:
-            if p1 in created.keys() and p2 in created.keys():
-                if (p1, p2) in final:
-                    finalLine(ps, root, p1, p2, time)
-                else:
-                    drawConnect(ps, root, p1, p2, time)
-                print( f"Connect {p1} {p2} {time}" )
-                connected[(p1,p2)] = time+1
-                lastUsed[p1] = time+1
-                lastUsed[p2] = time+1
-            else:
-                nextToConnect.append( (p1,p2) )
-        toConnect = nextToConnect
-
-        time += 1
-
-    # for path in e:
-    #     for i in range(len(path)-1):
-    #         finalLine(ps, root, path[i], path[i+1], time-1)
-    #     for p in path:
-    #         lastUsed[p] = time
-
-    for i,time in enumerate(lastUsed):
-        deactivate(i, time)
-    outfn = sys.argv[1].replace('-solution.json', '.svg')
-    tree.write(outfn, encoding="UTF-8", xml_declaration="xml") #, default_namespace="ns0:http://www.w3.org/2000/svg")
+    for i,delay in enumerate(lastUsed):
+        deactivate(i, delay)
+    tree.write('out.svg', encoding="UTF-8", xml_declaration="xml") #, default_namespace="ns0:http://www.w3.org/2000/svg")
     # print(ET.tostring(root,encoding="UTF-8").decode())
     print(lastUsed)
-    print(ps)
 
 if __name__ == '__main__':
     # test()
-    if len(sys.argv) < 2:
-        print("Give me solution file name!")
-        sys.exit(1)
-    main(sys.argv[1])
+    main()
