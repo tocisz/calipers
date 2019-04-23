@@ -178,11 +178,16 @@ def main(solfn):
         created[i] = 0 # base is created from the beginning
         n += 1
 
+    final = set()
+    for path in e:
+        for i in range(len(path)-1):
+            final.add((path[i], path[i+1]))
+
     for r in v:
         p = connect(ps[r[0]], ps[r[1]], ps[r[2]], ps[r[3]])
         ps.append(p)
 
-    toConnect = set()
+    toConnect = set(final)
     connected = {}
     toCreate = set()
     for r in v:
@@ -226,8 +231,13 @@ def main(solfn):
         print(f"created: {created}")
         for (p1,p2) in toConnect:
             if p1 in created.keys() and p2 in created.keys():
-                drawConnect(ps, root, p1, p2, time)
+                if (p1, p2) in final:
+                    finalLine(ps, root, p1, p2, time)
+                else:
+                    drawConnect(ps, root, p1, p2, time)
                 print( f"Connect {p1} {p2} {time}" )
+                lastUsed[p1] = time+1
+                lastUsed[p2] = time+1
                 connected[(p1,p2)] = time+1
             else:
                 nextToConnect.append( (p1,p2) )
@@ -235,11 +245,11 @@ def main(solfn):
 
         time += 1
 
-    for path in e:
-        for i in range(len(path)-1):
-            finalLine(ps, root, path[i], path[i+1], time-1)
-        for p in path:
-            lastUsed[p] = time
+    # for path in e:
+    #     for i in range(len(path)-1):
+    #         finalLine(ps, root, path[i], path[i+1], time-1)
+    #     for p in path:
+    #         lastUsed[p] = time
 
     for i,time in enumerate(lastUsed):
         deactivate(i, time)
