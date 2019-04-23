@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import xml.etree.ElementTree as ET
 import xml.etree as etree
 
@@ -49,7 +50,7 @@ def finalLine(ps, root, p1i, p2i, delay):
     p1 = [str(ps[p1i][0]), str(ps[p1i][1])]
     p2 = [str(ps[p2i][0]), str(ps[p2i][1])]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='main']")
-    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], visibility='hidden', style="stroke:rgb(0,0,0);stroke-width:3")
+    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], visibility='hidden', style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round")
     l.append(ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="visible", begin=f"{delay}s"))
     aa = {"attributeName": "x2", "from": p1[0], "to": p2[0], "dur": "1s", "begin": f"{delay}s", "fill": "freeze"}
     l.append(ET.Element("{http://www.w3.org/2000/svg}animate", attrib=aa))
@@ -74,7 +75,7 @@ def drawConnect(ps,root, p1i, p2i, delay):
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='evolving']")
     g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"connect-{p1i}-{p2i}")
     r.append(g)
-    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], style="stroke:rgb(0,0,0);stroke-width:1")
+    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1])
     aa = {"attributeName": "x2", "from": p1[0], "to": p2[0], "dur": "1s", "begin": f"{delay}s", "fill": "freeze"}
     l.append(ET.Element("{http://www.w3.org/2000/svg}animate", attrib=aa))
     aa = {"attributeName": "y2", "from": p1[1], "to": p2[1], "dur": "1s", "begin": f"{delay}s", "fill": "freeze"}
@@ -120,7 +121,7 @@ def drawRotate(ps, root, p1i, p2i, p3i, begin, end):
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='evolving']")
     g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"rotate-{p1i}-{p2i}-{p3i}")
     r.append(g)
-    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p2[0], y2=p2[1], style="stroke:rgb(0,0,0);stroke-width:1")
+    l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p2[0], y2=p2[1])
     g.append(l)
     c = ET.Element("{http://www.w3.org/2000/svg}circle", cx=p2[0], cy=p2[1], r="3")
     g.append(c)
@@ -236,9 +237,9 @@ def main(solfn):
                 else:
                     drawConnect(ps, root, p1, p2, time)
                 print( f"Connect {p1} {p2} {time}" )
+                connected[(p1,p2)] = time+1
                 lastUsed[p1] = time+1
                 lastUsed[p2] = time+1
-                connected[(p1,p2)] = time+1
             else:
                 nextToConnect.append( (p1,p2) )
         toConnect = nextToConnect
