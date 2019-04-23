@@ -31,10 +31,16 @@ SVG = "{http://www.w3.org/2000/svg}"
 tree = ET.parse('template.xml')
 root = tree.getroot()
 
+def sxy(xy):
+    return int(xy)
+
+def sangle(a):
+    return round(a, 3)
+
 def finalDot(ps, root, i, delay=None):
-    p = [str(n) for n in ps[i]]
+    p = [str(sxy(n)) for n in ps[i]]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='main']")
-    e = ET.Element("{http://www.w3.org/2000/svg}circle", id=f"p{i}", cx=p[0], cy=p[1], r="3" )
+    e = ET.Element("{http://www.w3.org/2000/svg}circle", id=f"p{i}", cx=p[0], cy=p[1], r="3")
     if delay != None:
         e.attrib['visibility'] = 'hidden'
         # <set attributeName="visibility" to="visible" begin="8s" />
@@ -45,8 +51,8 @@ def finalDot(ps, root, i, delay=None):
 # <animate attributeName="x2" from="880" to="1040" dur="1s" begin="0s" fill="freeze" />
 # </line>
 def finalLine(ps, root, p1i, p2i, delay):
-    p1 = [str(ps[p1i][0]), str(ps[p1i][1])]
-    p2 = [str(ps[p2i][0]), str(ps[p2i][1])]
+    p1 = [str(sxy(ps[p1i][0])), str(sxy(ps[p1i][1]))]
+    p2 = [str(sxy(ps[p2i][0])), str(sxy(ps[p2i][1]))]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='main']")
     l = ET.Element("{http://www.w3.org/2000/svg}line", x1=p1[0], y1=p1[1], x2=p1[0], y2=p1[1], visibility='hidden', style="stroke-width:3;stroke-linecap:round;stroke-linejoin:round")
     l.append(ET.Element("{http://www.w3.org/2000/svg}set", attributeName="visibility", to="visible", begin=f"{delay}s"))
@@ -68,8 +74,8 @@ def finalLine(ps, root, p1i, p2i, delay):
 # <set attributeName="visibility" to="visible" begin="4s" />
 # </g>
 def drawConnect(ps,root, p1i, p2i, delay):
-    p1 = [str(ps[p1i][0]), str(ps[p1i][1])]
-    p2 = [str(ps[p2i][0]), str(ps[p2i][1])]
+    p1 = [str(sxy(ps[p1i][0])), str(sxy(ps[p1i][1]))]
+    p2 = [str(sxy(ps[p2i][0])), str(sxy(ps[p2i][1]))]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='evolving']")
     g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"connect-{p1i}-{p2i}")
     r.append(g)
@@ -112,10 +118,10 @@ def angle(p1, p2, p3):
 # <set attributeName="visibility" to="visible" begin="3s" />
 # </g>
 def drawRotate(ps, root, p1i, p2i, p3i, begin, end):
-    an = angle(ps[p1i], ps[p2i], ps[p3i])
+    an = sangle(angle(ps[p1i], ps[p2i], ps[p3i]))
     # print(an)
-    p1 = [str(n) for n in ps[p1i]]
-    p2 = [str(n) for n in ps[p2i]]
+    p1 = [str(sxy(n)) for n in ps[p1i]]
+    p2 = [str(sxy(n)) for n in ps[p2i]]
     r = tree.find(".//{http://www.w3.org/2000/svg}g[@id='evolving']")
     g = ET.Element("{http://www.w3.org/2000/svg}g", visibility='hidden', id=f"rotate-{p1i}-{p2i}-{p3i}")
     r.append(g)
