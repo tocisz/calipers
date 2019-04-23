@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="1920" height="1200" version="1.1" viewBox="0 0 507.99 317.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="scale(0.26458332)" stroke-width="0.26458332">
+    <circle id="p0" cx="880" cy="600" r="3"/>
+    <circle id="p1" cx="1040" cy="600" r="3"/>
+    <g id="evolving" opacity="0.5">
+      <line x1="880" y1="600" x2="880" y2="600" style="stroke:rgb(0,0,0);stroke-width:1">
+        <animate attributeName="x2" from="880" to="1040" dur="1s" begin="0s" fill="freeze" />
+      </line>
+      <circle cx="880" cy="600" r="3">
+        <animate attributeName="cx" from="880" to="1040" dur="1s" begin="0s" fill="freeze" />
+      </circle>
+      <g id="p2-1" visibility="hidden">
+        <line x1="880" y1="600" x2="1040" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="1040" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 880 600" to="-60 880 600" dur="1s" begin="1s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="1s" />
+      </g>
+      <g id="p2-2" visibility="hidden">
+        <line x1="1040" y1="600" x2="880" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="880" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 1040 600" to="60 1040 600" dur="1s" begin="1s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="1s" />
+      </g>
+      <g id="p3-1" visibility="hidden">
+        <line x1="880" y1="600" x2="1040" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="1040" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 880 600" to="60 880 600" dur="1s" begin="1s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="1s" />
+      </g>
+      <g id="p3-2" visibility="hidden">
+        <line x1="1040" y1="600" x2="880" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="880" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 1040 600" to="-60 1040 600" dur="1s" begin="1s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="1s" />
+      </g>
+      <!-- 2 -->
+      <g id="p4-pre" visibility="hidden">
+        <line id="line" x1="960.0" y1="461.4359353944898" x2="960.0" y2="461.4359353944898" style="stroke:rgb(0,0,0);stroke-width:1">
+          <animate attributeName="y2" from="461.4359353944898" to="738.5640646055102" dur="1s" begin="2s" fill="freeze" />
+        </line>
+        <circle id="circ" cx="960.0" cy="461.4359353944898" r="3">
+          <animate attributeName="cy" from="461.4359353944898" to="738.5640646055102" dur="1s" begin="2s" fill="freeze" />
+        </circle>
+        <set attributeName="visibility" to="visible" begin="2s" />
+      </g>
+      <g id="p4-1" visibility="hidden">
+        <line x1="880" y1="600" x2="1040" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="1040" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 880 600" to="-180 880 600" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p4-2" visibility="hidden">
+        <line x1="960.0" y1="461.4359353944898" x2="960.0" y2="738.5640646055102" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="960.0" cy="738.5640646055102" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 960 461.4359353944898" to="60 960 461.4359353944898" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p5-1" visibility="hidden">
+        <line x1="880" y1="600" x2="1040" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="880" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 1040 600" to="180 1040 600" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p5-2" visibility="hidden">
+        <line x1="960.0" y1="461.4359353944898" x2="960.0" y2="738.5640646055102" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="960.0" cy="738.5640646055102" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 960 461.4359353944898" to="-60 960 461.4359353944898" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p6-1" visibility="hidden">
+        <line x1="960" y1="461.4359353944898" x2="880" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="880" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 960 461.4359353944898" to="-103.221345119 960 461.4359353944898" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p6-2" visibility="hidden">
+        <line x1="960.0" y1="461.4359353944898" x2="960.0" y2="738.5640646055102" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="960.0" cy="461.4359353944898" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 960 738.5640646055102" to="33.5573097619 960 738.5640646055102" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p7-1" visibility="hidden">
+        <line x1="880" y1="600" x2="1200" y2="600" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="1200" cy="600" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 880 600" to="-79 880 600" dur="1s" begin="5s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="5s" />
+      </g>
+      <g id="p8-pre" visibility="hidden">
+        <line id="line" x1="880" y1="600" x2="880" y2="600" style="stroke:rgb(0,0,0);stroke-width:1">
+          <animate attributeName="x2" from="880" to="1113.188337241014" dur="1s" begin="4s" fill="freeze" />
+          <animate attributeName="y2" from="600" to="507.62395692965987" dur="1s" begin="4s" fill="freeze" />
+        </line>
+        <circle id="circ" cx="1113.188337241014" cy="507.62395692965987" r="3">
+          <animate attributeName="cx" from="880" to="1113.188337241014" dur="1s" begin="4s" fill="freeze" />
+          <animate attributeName="cy" from="600" to="507.62395692965987" dur="1s" begin="4s" fill="freeze" />
+        </circle>
+        <set attributeName="visibility" to="visible" begin="4s" />
+      </g>
+<!--
+      <g id="p6-1" visibility="hidden">
+        <line x1="X1" y1="Y1" x2="X2" y2="Y2" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="X2" cy="Y2" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 X1 Y1" to="A X1 Y1" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+      <g id="p6-2" visibility="hidden">
+        <line x1="960.0" y1="461.4359353944898" x2="960.0" y2="738.5640646055102" style="stroke:rgb(0,0,0);stroke-width:1"/>
+        <circle cx="960.0" cy="461.4359353944898" r="3"/>
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 960 738.5640646055102" to="33.5573097619 960 738.5640646055102" dur="1s" begin="3s" fill="freeze" restart="whenNotActive" />
+        <set attributeName="visibility" to="visible" begin="3s" />
+      </g>
+-->
+    </g>
+    <circle id="p2" visibility="hidden" cx="960.0" cy="461.4359353944898" r="3">
+      <set attributeName="visibility" to="visible" begin="2s" />
+    </circle>
+    <circle id="p3" visibility="hidden" cx="960.0" cy="738.5640646055102" r="3">
+      <set attributeName="visibility" to="visible" begin="2s" />
+    </circle>
+    <circle id="p4" visibility="hidden" cx="720.0" cy="600" r="3">
+      <set attributeName="visibility" to="visible" begin="4s" />
+    </circle>
+    <circle id="p5" visibility="hidden" cx="1200" cy="600" r="3">
+      <set attributeName="visibility" to="visible" begin="4s" />
+    </circle>
+    <circle id="p6" visibility="hidden" cx="1113.188337241014" cy="507.62395692965987" r="3">
+      <set attributeName="visibility" to="visible" begin="4s" />
+    </circle>
+    <circle id="p7" visibility="hidden" cx="945.7187035498007" cy="286.8210543415579" r="3">
+      <set attributeName="visibility" to="visible" begin="6s" />
+    </circle>
+    <circle id="p8" visibility="hidden" cx="778.2970843102537" cy="370.72581719965365" r="3">
+      <set attributeName="visibility" to="visible" begin="6s" />
+    </circle>
+    <circle id="p9" visibility="hidden" cx="960.0" cy="811.6601048851674" r="3">
+      <set attributeName="visibility" to="visible" begin="6s" />
+    </circle>
+    <circle id="p10" visibility="hidden" cx="1175.7944877248715" cy="750.5037705827399" r="3">
+      <set attributeName="visibility" to="visible" begin="6s" />
+    </circle>
+    <circle id="p11" visibility="hidden" cx="880" cy="440" r="3">
+      <set attributeName="visibility" to="visible" begin="8s" />
+    </circle>
+    <circle id="p12" visibility="hidden" cx="1040" cy="440" r="3">
+      <set attributeName="visibility" to="visible" begin="8s" />
+    </circle>
+    <circle id="p13" visibility="hidden" cx="960" cy="280" r="3">
+      <set attributeName="visibility" to="visible" begin="8s" />
+    </circle>
+  </g>
+</svg>

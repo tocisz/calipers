@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="1200"
+   version="1.1"
+   viewBox="0 0 507.99 317.5"
+   width="1920"
+   id="svg1019"
+   sodipodi:docname="out.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs1023" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview1021"
+     showgrid="false"
+     inkscape:zoom="2.75"
+     inkscape:cx="952.27542"
+     inkscape:cy="720.25082"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="main"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-grids="true"
+     showguides="false" />
+  <metadata
+     id="metadata815">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <image
+       sodipodi:absref="C:\Users\tcich\private\calipers-home\img.png"
+       xlink:href="img.png"
+       width="508"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image1161"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="opacity:0.461">
+    <g
+       id="main"
+       stroke-width="0.26458332"
+       transform="scale(0.26458332)"
+       style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+      <g
+         id="evolving"
+         opacity="0.5"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <g
+           id="connect-0-1"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="880.0"
+             y1="600.0"
+             y2="600.0"
+             id="line817">
+            <animate
+               attributeName="x2"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="880.0"
+               to="1040.0" />
+            <animate
+               attributeName="y2"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="600.0"
+               to="600.0" />
+          </line>
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle819"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="880.0"
+               to="1040.0" />
+            <animate
+               attributeName="cy"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="600.0"
+               to="600.0" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="0s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-1-0"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1040.0"
+             x2="1040.0"
+             y1="600.0"
+             y2="600.0"
+             id="line822">
+            <animate
+               attributeName="x2"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="1040.0"
+               to="880.0" />
+            <animate
+               attributeName="y2"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="600.0"
+               to="600.0" />
+          </line>
+          <circle
+             cx="1040.0"
+             cy="600.0"
+             r="3"
+             id="circle824"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="1040.0"
+               to="880.0" />
+            <animate
+               attributeName="cy"
+               begin="0s"
+               dur="1s"
+               fill="freeze"
+               from="600.0"
+               to="600.0" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="0s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-0-1-2"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="1040.0"
+             y1="600.0"
+             y2="600.0"
+             id="line827" />
+          <circle
+             cx="1040.0"
+             cy="600.0"
+             r="3"
+             id="circle829"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="1s"
+             fill="freeze"
+             from="0 880.0 600.0"
+             to="-60.00000000000001 880.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="2s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-1-0-2"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1040.0"
+             x2="880.0"
+             y1="600.0"
+             y2="600.0"
+             id="line832" />
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle834"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="1s"
+             fill="freeze"
+             from="0 1040.0 600.0"
+             to="60.00000000000001 1040.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="2s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-1-0-3"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1040.0"
+             x2="880.0"
+             y1="600.0"
+             y2="600.0"
+             id="line837" />
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle839"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="1s"
+             fill="freeze"
+             from="0 1040.0 600.0"
+             to="-60.00000000000003 1040.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="2s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-0-1-3"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="1040.0"
+             y1="600.0"
+             y2="600.0"
+             id="line842" />
+          <circle
+             cx="1040.0"
+             cy="600.0"
+             r="3"
+             id="circle844"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="1s"
+             fill="freeze"
+             from="0 880.0 600.0"
+             to="60.00000000000003 880.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="2s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-3-2"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="738.5640646055102"
+             y2="738.5640646055102"
+             id="line847">
+            <animate
+               attributeName="x2"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="960.0" />
+            <animate
+               attributeName="y2"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="738.5640646055102"
+               to="461.4359353944898" />
+          </line>
+          <circle
+             cx="960.0"
+             cy="738.5640646055102"
+             r="3"
+             id="circle849"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="960.0" />
+            <animate
+               attributeName="cy"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="738.5640646055102"
+               to="461.4359353944898" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="2s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-2-0"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="461.4359353944898"
+             y2="461.4359353944898"
+             id="line852">
+            <animate
+               attributeName="x2"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="880.0" />
+            <animate
+               attributeName="y2"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="461.4359353944898"
+               to="600.0" />
+          </line>
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle854"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="880.0" />
+            <animate
+               attributeName="cy"
+               begin="2s"
+               dur="1s"
+               fill="freeze"
+               from="461.4359353944898"
+               to="600.0" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="2s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-1-0-5"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1040.0"
+             x2="880.0"
+             y1="600.0"
+             y2="600.0"
+             id="line857" />
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle859"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="3s"
+             fill="freeze"
+             from="0 1040.0 600.0"
+             to="179.99999999999997 1040.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="4s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-3-2-5"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="738.5640646055102"
+             y2="461.4359353944898"
+             id="line862" />
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle864"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="3s"
+             dur="1s"
+             fill="freeze"
+             from="0 960.0 738.5640646055102"
+             to="59.99999999999997 960.0 738.5640646055102"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="4s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-3-2-6"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="738.5640646055102"
+             y2="461.4359353944898"
+             id="line867" />
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle869"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="3s"
+             dur="1s"
+             fill="freeze"
+             from="0 960.0 738.5640646055102"
+             to="-33.55730976192071 960.0 738.5640646055102"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="4s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-2-0-6"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="880.0"
+             y1="461.4359353944898"
+             y2="600.0"
+             id="line872" />
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle874"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="3s"
+             dur="1s"
+             fill="freeze"
+             from="0 960.0 461.4359353944898"
+             to="43.221345119039654 960.0 461.4359353944898"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="4s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-0-1-4"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="1040.0"
+             y1="600.0"
+             y2="600.0"
+             id="line877" />
+          <circle
+             cx="1040.0"
+             cy="600.0"
+             r="3"
+             id="circle879"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="3s"
+             fill="freeze"
+             from="0 880.0 600.0"
+             to="-120.0 880.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="4s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-2-0-4"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="880.0"
+             y1="461.4359353944898"
+             y2="600.0"
+             id="line882" />
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle884"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="3s"
+             dur="1s"
+             fill="freeze"
+             from="0 960.0 461.4359353944898"
+             to="60.000000000000014 960.0 461.4359353944898"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="4s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-5-2"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1200.0"
+             x2="1200.0"
+             y1="599.9999999999999"
+             y2="599.9999999999999"
+             id="line887">
+            <animate
+               attributeName="x2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="1200.0"
+               to="960.0" />
+            <animate
+               attributeName="y2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="599.9999999999999"
+               to="461.4359353944898" />
+          </line>
+          <circle
+             cx="1200.0"
+             cy="599.9999999999999"
+             r="3"
+             id="circle889"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="1200.0"
+               to="960.0" />
+            <animate
+               attributeName="cy"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="599.9999999999999"
+               to="461.4359353944898" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="4s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-6-3"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="806.8116627589859"
+             x2="806.8116627589859"
+             y1="507.62395692965987"
+             y2="507.62395692965987"
+             id="line892">
+            <animate
+               attributeName="x2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="806.8116627589859"
+               to="960.0" />
+            <animate
+               attributeName="y2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="507.62395692965987"
+               to="738.5640646055102" />
+          </line>
+          <circle
+             cx="806.8116627589859"
+             cy="507.62395692965987"
+             r="3"
+             id="circle894"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="806.8116627589859"
+               to="960.0" />
+            <animate
+               attributeName="cy"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="507.62395692965987"
+               to="738.5640646055102" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="4s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-4-3"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="800.0"
+             x2="800.0"
+             y1="461.43593539448983"
+             y2="461.43593539448983"
+             id="line897">
+            <animate
+               attributeName="x2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="800.0"
+               to="960.0" />
+            <animate
+               attributeName="y2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="461.43593539448983"
+               to="738.5640646055102" />
+          </line>
+          <circle
+             cx="800.0"
+             cy="461.43593539448983"
+             r="3"
+             id="circle899"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="800.0"
+               to="960.0" />
+            <animate
+               attributeName="cy"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="461.43593539448983"
+               to="738.5640646055102" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="4s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-4-1"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="800.0"
+             x2="800.0"
+             y1="461.43593539448983"
+             y2="461.43593539448983"
+             id="line902">
+            <animate
+               attributeName="x2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="800.0"
+               to="1040.0" />
+            <animate
+               attributeName="y2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="461.43593539448983"
+               to="600.0" />
+          </line>
+          <circle
+             cx="800.0"
+             cy="461.43593539448983"
+             r="3"
+             id="circle904"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="800.0"
+               to="1040.0" />
+            <animate
+               attributeName="cy"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="461.43593539448983"
+               to="600.0" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="4s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-2-4"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="461.4359353944898"
+             y2="461.4359353944898"
+             id="line907">
+            <animate
+               attributeName="x2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="800.0" />
+            <animate
+               attributeName="y2"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="461.4359353944898"
+               to="461.43593539448983" />
+          </line>
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle909"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="800.0" />
+            <animate
+               attributeName="cy"
+               begin="4s"
+               dur="1s"
+               fill="freeze"
+               from="461.4359353944898"
+               to="461.43593539448983" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="4s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-4-3-9"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="800.0"
+             x2="960.0"
+             y1="461.43593539448983"
+             y2="738.5640646055102"
+             id="line912" />
+          <circle
+             cx="960.0"
+             cy="738.5640646055102"
+             r="3"
+             id="circle914"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="5s"
+             dur="1s"
+             fill="freeze"
+             from="0 800.0 461.43593539448983"
+             to="-81.78678929826187 800.0 461.43593539448983"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="6s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-5-2-9"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1200.0"
+             x2="960.0"
+             y1="599.9999999999999"
+             y2="461.4359353944898"
+             id="line917" />
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle919"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="5s"
+             dur="1s"
+             fill="freeze"
+             from="0 1200.0 599.9999999999999"
+             to="38.213210701738205 1200.0 599.9999999999999"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="6s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-6-3-7"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="806.8116627589859"
+             x2="960.0"
+             y1="507.62395692965987"
+             y2="738.5640646055102"
+             id="line922" />
+          <circle
+             cx="960.0"
+             cy="738.5640646055102"
+             r="3"
+             id="circle924"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="5s"
+             dur="1s"
+             fill="freeze"
+             from="0 806.8116627589859 507.62395692965987"
+             to="-103.22134511903965 806.8116627589859 507.62395692965987"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="6s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-2-4-7"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="800.0"
+             y1="461.4359353944898"
+             y2="461.43593539448983"
+             id="line927" />
+          <circle
+             cx="800.0"
+             cy="461.43593539448983"
+             r="3"
+             id="circle929"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="5s"
+             dur="1s"
+             fill="freeze"
+             from="0 960.0 461.4359353944898"
+             to="103.2213451190397 960.0 461.4359353944898"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="6s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-3-2-8"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="738.5640646055102"
+             y2="461.4359353944898"
+             id="line932" />
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle934"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="3s"
+             dur="3s"
+             fill="freeze"
+             from="0 960.0 738.5640646055102"
+             to="-84.73561031724535 960.0 738.5640646055102"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="6s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="3s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-4-1-8"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="800.0"
+             x2="1040.0"
+             y1="461.43593539448983"
+             y2="600.0"
+             id="line937" />
+          <circle
+             cx="1040.0"
+             cy="600.0"
+             r="3"
+             id="circle939"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="5s"
+             dur="1s"
+             fill="freeze"
+             from="0 800.0 461.43593539448983"
+             to="84.73561031724535 800.0 461.43593539448983"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="6s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="5s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-2-9"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="960.0"
+             y1="461.4359353944898"
+             y2="461.4359353944898"
+             id="line942">
+            <animate
+               attributeName="x2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="1097.142857142857" />
+            <animate
+               attributeName="y2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="461.4359353944898"
+               to="342.6667371611952" />
+          </line>
+          <circle
+             cx="960.0"
+             cy="461.4359353944898"
+             r="3"
+             id="circle944"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="960.0"
+               to="1097.142857142857" />
+            <animate
+               attributeName="cy"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="461.4359353944898"
+               to="342.6667371611952" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="6s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-5-7"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1200.0"
+             x2="1200.0"
+             y1="599.9999999999999"
+             y2="599.9999999999999"
+             id="line947">
+            <animate
+               attributeName="x2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="1200.0"
+               to="996.5941686205072" />
+            <animate
+               attributeName="y2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="599.9999999999999"
+               to="305.6769330126888" />
+          </line>
+          <circle
+             cx="1200.0"
+             cy="599.9999999999999"
+             r="3"
+             id="circle949"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="1200.0"
+               to="996.5941686205072" />
+            <animate
+               attributeName="cy"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="599.9999999999999"
+               to="305.6769330126888" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="6s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-8-7"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="684.0408205773457"
+             x2="684.0408205773457"
+             y1="713.1370849898476"
+             y2="713.1370849898476"
+             id="line952">
+            <animate
+               attributeName="x2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="684.0408205773457"
+               to="996.5941686205072" />
+            <animate
+               attributeName="y2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="713.1370849898476"
+               to="305.6769330126888" />
+          </line>
+          <circle
+             cx="684.0408205773457"
+             cy="713.1370849898476"
+             r="3"
+             id="circle954"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="684.0408205773457"
+               to="996.5941686205072" />
+            <animate
+               attributeName="cy"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="713.1370849898476"
+               to="305.6769330126888" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="6s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="connect-0-8"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="880.0"
+             y1="600.0"
+             y2="600.0"
+             id="line957">
+            <animate
+               attributeName="x2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="880.0"
+               to="684.0408205773457" />
+            <animate
+               attributeName="y2"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="600.0"
+               to="713.1370849898476" />
+          </line>
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle959"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+            <animate
+               attributeName="cx"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="880.0"
+               to="684.0408205773457" />
+            <animate
+               attributeName="cy"
+               begin="6s"
+               dur="1s"
+               fill="freeze"
+               from="600.0"
+               to="713.1370849898476" />
+          </circle>
+          <set
+             attributeName="visibility"
+             begin="6s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-8-7-12"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="684.0408205773457"
+             x2="996.5941686205072"
+             y1="713.1370849898476"
+             y2="305.6769330126888"
+             id="line962" />
+          <circle
+             cx="996.5941686205072"
+             cy="305.6769330126888"
+             r="3"
+             id="circle964"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="7s"
+             dur="1s"
+             fill="freeze"
+             from="0 684.0408205773457 713.1370849898476"
+             to="-4.994521617776037 684.0408205773457 713.1370849898476"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="8s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="9s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-2-9-12"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="960.0"
+             x2="1097.142857142857"
+             y1="461.4359353944898"
+             y2="342.6667371611952"
+             id="line967" />
+          <circle
+             cx="1097.142857142857"
+             cy="342.6667371611952"
+             r="3"
+             id="circle969"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="7s"
+             dur="1s"
+             fill="freeze"
+             from="0 960.0 461.4359353944898"
+             to="-49.12753387130064 960.0 461.4359353944898"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="8s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="9s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-0-1-10"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="1040.0"
+             y1="600.0"
+             y2="600.0"
+             id="line972" />
+          <circle
+             cx="1040.0"
+             cy="600.0"
+             r="3"
+             id="circle974"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="7s"
+             fill="freeze"
+             from="0 880.0 600.0"
+             to="-89.99999999999996 880.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="8s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="9s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-5-7-10"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1200.0"
+             x2="996.5941686205072"
+             y1="599.9999999999999"
+             y2="305.6769330126888"
+             id="line977" />
+          <circle
+             cx="996.5941686205072"
+             cy="305.6769330126888"
+             r="3"
+             id="circle979"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="7s"
+             dur="1s"
+             fill="freeze"
+             from="0 1200.0 599.9999999999999"
+             to="-28.786708703328273 1200.0 599.9999999999999"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="8s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="9s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-0-8-11"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="880.0"
+             x2="684.0408205773457"
+             y1="600.0"
+             y2="713.1370849898476"
+             id="line982" />
+          <circle
+             cx="684.0408205773457"
+             cy="713.1370849898476"
+             r="3"
+             id="circle984"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="7s"
+             dur="1s"
+             fill="freeze"
+             from="0 880.0 600.0"
+             to="165.0 880.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="8s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="7s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="9s"
+             to="hidden" />
+        </g>
+        <g
+           id="rotate-1-0-11"
+           visibility="hidden"
+           style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+          <line
+             style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+             x1="1040.0"
+             x2="880.0"
+             y1="600.0"
+             y2="600.0"
+             id="line987" />
+          <circle
+             cx="880.0"
+             cy="600.0"
+             r="3"
+             id="circle989"
+             style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none" />
+          <animateTransform
+             attributeName="transform"
+             attributeType="XML"
+             begin="1s"
+             dur="7s"
+             fill="freeze"
+             from="0 1040.0 600.0"
+             to="90.0 1040.0 600.0"
+             type="rotate" />
+          <animate
+             attributeName="opacity"
+             attributeType="CSS"
+             begin="8s"
+             dur="1s"
+             fill="freeze"
+             from="1"
+             to="0" />
+          <set
+             attributeName="visibility"
+             begin="1s"
+             to="visible" />
+          <set
+             attributeName="visibility"
+             begin="9s"
+             to="hidden" />
+        </g>
+      </g>
+      <circle
+         cx="880"
+         cy="600"
+         id="new"
+         r="3"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none"
+         r="3"
+         id="circle1168"
+         cy="600.0"
+         cx="880.0">
+        <animate
+           to="0"
+           from="1"
+           fill="freeze"
+           dur="1s"
+           begin="9s"
+           attributeType="CSS"
+           attributeName="opacity" />
+      </circle>
+      <circle
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none"
+         r="3"
+         id="circle1166"
+         cy="600.0"
+         cx="880.0">
+        <animate
+           to="0"
+           from="1"
+           fill="freeze"
+           dur="1s"
+           begin="9s"
+           attributeType="CSS"
+           attributeName="opacity" />
+      </circle>
+      <circle
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         r="3"
+         id="circle1164"
+         cy="360"
+         cx="880">
+        <animate
+           to="0"
+           from="1"
+           fill="freeze"
+           dur="1s"
+           begin="9s"
+           attributeType="CSS"
+           attributeName="opacity" />
+      </circle>
+      <circle
+         cx="1040.0"
+         cy="600.0"
+         id="p1"
+         r="3"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="959.27271"
+         cy="443.61777"
+         id="p2"
+         r="3"
+         visibility="hidden"
+         style="visibility:hidden;fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <set
+           attributeName="visibility"
+           begin="2s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="960.0"
+         cy="738.5640646055102"
+         id="p3"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="2s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="6s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="1200.0"
+         cy="599.9999999999999"
+         id="p5"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="4s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="806.8116627589859"
+         cy="507.62395692965987"
+         id="p6"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="4s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="6s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="800.0"
+         cy="461.43593539448983"
+         id="p4"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="4s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="6s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="1097.142857142857"
+         cy="342.6667371611952"
+         id="p9"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="6s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="996.5941686205072"
+         cy="305.6769330126888"
+         id="p7"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="6s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="684.0408205773457"
+         cy="713.1370849898476"
+         id="p8"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="6s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="959.9337313533072"
+         cy="280.01300045308767"
+         id="p12"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="880.0000000000001"
+         cy="440.0"
+         id="p10"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="1040.0"
+         cy="440.0"
+         id="p11"
+         r="3"
+         visibility="hidden"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;stroke-width:3.77952775;stroke-miterlimit:4;stroke-dasharray:none">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <line
+         style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         visibility="hidden"
+         x1="880.0000000000001"
+         x2="880.0000000000001"
+         y1="440.0"
+         y2="440.0"
+         id="line1006">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="880.0000000000001"
+           to="1040.0" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="440.0"
+           to="440.0" />
+      </line>
+      <line
+         style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         visibility="hidden"
+         x1="1040.0"
+         x2="1040.0"
+         y1="440.0"
+         y2="440.0"
+         id="line1008">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1040.0"
+           to="1040.0" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="440.0"
+           to="600.0" />
+      </line>
+      <line
+         style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         visibility="hidden"
+         x1="1040.0"
+         x2="1040.0"
+         y1="600.0"
+         y2="600.0"
+         id="line1010">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1040.0"
+           to="880.0" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="600.0"
+           to="600.0" />
+      </line>
+      <line
+         style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         visibility="hidden"
+         x1="880.0"
+         x2="880.0"
+         y1="600.0"
+         y2="600.0"
+         id="line1012">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="880.0"
+           to="880.0000000000001" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="600.0"
+           to="440.0" />
+      </line>
+      <line
+         style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         visibility="hidden"
+         x1="880.0000000000001"
+         x2="880.0000000000001"
+         y1="440.0"
+         y2="440.0"
+         id="line1014">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="880.0000000000001"
+           to="959.9337313533072" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="440.0"
+           to="280.01300045308767" />
+      </line>
+      <line
+         style="stroke:#ffffff;stroke-width:3.77952775;fill:#fafcff;fill-opacity:1;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         visibility="hidden"
+         x1="959.9337313533072"
+         x2="959.9337313533072"
+         y1="280.01300045308767"
+         y2="280.01300045308767"
+         id="line1016">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="959.9337313533072"
+           to="1040.0" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="280.01300045308767"
+           to="440.0" />
+      </line>
+    </g>
+  </g>
+</svg>

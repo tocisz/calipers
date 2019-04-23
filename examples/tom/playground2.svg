@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="1200"
+   version="1.1"
+   viewBox="0 0 507.99 317.5"
+   width="1920"
+   id="svg1019"
+   sodipodi:docname="playground2.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs1023" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview1021"
+     showgrid="true"
+     inkscape:zoom="2.75"
+     inkscape:cx="960"
+     inkscape:cy="623.12516"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="main"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-grids="true"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid290" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata815">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <image
+       sodipodi:absref="C:\Users\tcich\private\calipers-home\img.png"
+       xlink:href="img.png"
+       y="0"
+       x="0"
+       id="image1161"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="508" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline;opacity:0.46100003">
+    <g
+       id="main"
+       transform="scale(0.26458332)"
+       style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <circle
+         cx="880"
+         cy="600"
+         id="new"
+         r="3"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         r="3"
+         id="circle1168"
+         cy="600"
+         cx="880">
+        <animate
+           to="0"
+           from="1"
+           fill="freeze"
+           dur="1s"
+           begin="9s"
+           attributeType="CSS"
+           attributeName="opacity" />
+      </circle>
+      <circle
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         r="3"
+         id="circle1166"
+         cy="600"
+         cx="880">
+        <animate
+           to="0"
+           from="1"
+           fill="freeze"
+           dur="1s"
+           begin="9s"
+           attributeType="CSS"
+           attributeName="opacity" />
+      </circle>
+      <circle
+         cx="1040"
+         cy="600"
+         id="p1"
+         r="3"
+         style="fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="9s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <circle
+         cx="1200"
+         cy="600"
+         id="p5"
+         r="3"
+         visibility="hidden"
+         style="visibility:hidden;fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <set
+           attributeName="visibility"
+           begin="4s"
+           to="visible" />
+        <animate
+           attributeName="opacity"
+           attributeType="CSS"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1"
+           to="0" />
+      </circle>
+      <line
+         style="visibility:hidden;fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         visibility="hidden"
+         x1="1040"
+         x2="1040"
+         y1="600"
+         y2="600"
+         id="line1010">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="1040.0"
+           to="880.0" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="600.0"
+           to="600.0" />
+      </line>
+      <line
+         style="visibility:hidden;fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         visibility="hidden"
+         x1="880"
+         x2="880"
+         y1="600"
+         y2="600"
+         id="line1012">
+        <set
+           attributeName="visibility"
+           begin="8s"
+           to="visible" />
+        <animate
+           attributeName="x2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="880.0"
+           to="880.0000000000001" />
+        <animate
+           attributeName="y2"
+           begin="8s"
+           dur="1s"
+           fill="freeze"
+           from="600.0"
+           to="440.0" />
+      </line>
+      <circle
+         style="visibility:hidden;fill:#fafcff;fill-opacity:1;stroke:#ffffff;stroke-width:3.77952766;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         visibility="hidden"
+         r="3"
+         id="circle292"
+         cy="600"
+         cx="720">
+        <set
+           to="visible"
+           begin="4s"
+           attributeName="visibility" />
+        <animate
+           to="0"
+           from="1"
+           fill="freeze"
+           dur="1s"
+           begin="8s"
+           attributeType="CSS"
+           attributeName="opacity" />
+      </circle>
+    </g>
+  </g>
+</svg>
