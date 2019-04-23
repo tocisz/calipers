@@ -7,8 +7,8 @@ import random
 from pyscipopt import Model, quicksum
 import sys
 
-WIDTH = 2000
-HEIGHT = 2000
+WIDTH = None # Set in the main
+HEIGHT = None
 MIN_BASE_DIST = 1.0
 MAX_DIST = 0.005
 MAX_SOL_DIST = 0.001
@@ -194,6 +194,7 @@ def makeDoc(sumgen, base_len, groupdict, edges, points_mapping):
     return doc
 
 def solveMip(doc):
+    # return [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 441, 615, 8586, 9458, 16770, 17562, 19159, 19160, 19161, 19162, 19163]
     target = doc["points_mapping"] # target are all input points mapped to graph ids
 
     m = Model()
@@ -349,6 +350,9 @@ def main(inputfn, basefn):
         input['base']['points'] = readInput(basefn)
     MAX_GEN = input['base']['depth']
     base = input['base']['points']
+    global WIDTH, HEIGHT
+    WIDTH = input['limits']['width']
+    HEIGHT = input['limits']['height']
 
     gen = []
     sumgen = []

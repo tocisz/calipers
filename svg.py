@@ -7,8 +7,6 @@ import numpy as np
 import json
 import sys
 
-WIDTH = 1000
-HEIGHT = 1000
 MIN_BASE_DIST = 1.0
 
 def connect(p1, p2, p3, p4):
@@ -198,12 +196,12 @@ def main(solfn):
         n += 1
     toConnect = list(toConnect)
     toCreate = list(toCreate)
-    print(toConnect)
+    # print(toConnect)
 
     time = 0
     while toCreate:
         print(f"DELAY {time}")
-        print(f"connected: {connected}")
+        # print(f"connected: {connected}")
         nextToCreate = []
         for (n,(p1,p2),(p3,p4)) in toCreate:
             # print( (n,(p1,p2),(p3,p4)) )
@@ -218,9 +216,7 @@ def main(solfn):
                     finalDot(ps, root, n, time)
                     created[n] = time
                     lastUsed[p1] = time
-                    lastUsed[p2] = time
                     lastUsed[p3] = time
-                    lastUsed[p4] = time
                     lastUsed[n] = time
                 else:
                     nextToCreate.append( (n,(p1,p2),(p3,p4)) )
@@ -229,7 +225,7 @@ def main(solfn):
         toCreate = nextToCreate
 
         nextToConnect = []
-        print(f"created: {created}")
+        # print(f"created: {created}")
         for (p1,p2) in toConnect:
             if p1 in created.keys() and p2 in created.keys():
                 if (p1, p2) in final:
